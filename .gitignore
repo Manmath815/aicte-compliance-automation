@@ -1,0 +1,51 @@
+# Node
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Pytest / Cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local databases & uploads (keep sample_documents)
+backend/aicte_smartflow.db
+backend/uploads/
+
+# Environment files
+.env
+backend/.env
+
+# Editor & OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+.DS_Store
